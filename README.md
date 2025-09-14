@@ -12,4 +12,4 @@ npm run dev
 
 AI attributions: 
 
-This project used ChatGPT and Claude to debug errors and fix the formatting and styling of components. 
+This project used ChatGPT and Claude to debug errors and fix the formatting and styling of components. Co-pilot was used for in-line code completions.
