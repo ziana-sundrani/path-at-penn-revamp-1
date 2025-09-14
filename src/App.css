@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+}
+
+.card {
+  padding: 2px;
+}
+
+.phone-screen {
+  width: 375px;
+  height: 667px;
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px auto;
+  background-color: #00237C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.notch {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  height: 30px;
+  background: #000;
+  border-radius: 0 0 18px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#status-bar {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight:bolder;
+  color: white;
+}
+
+#status-icons {
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  position: absolute;
+  top: 7%;
+  left: 1px;
+}
+
+#penn-logo {
+  width: 75px;
+  height: 50px;
+}
+
+#title {
+  position: absolute;
+  top: 13%;
+}
+
+#page-description {
+  position: absolute;
+  top: 20%;
+  left: 0px;
+  width: 'fit-content';
+  padding: 8px 15px;
+  height: auto;
+  background-color: #F7F6F6;
+}
+
+.description {
+  font-size: 8px;
+  color: black;
+  text-align:left;
+  line-height: 1.5;
+}
+
+.courseCard {
+  border-radius: 16px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0px 5px 0px 5px;
+  box-sizing: border-box;
+  background-color: #F2F7C3;
+}
+
+.card-row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: top; 
+}
+
+#math {
+  background-color: #F2F7C3;
+  padding: '7px';
+  position: absolute; 
+  top: 30%;
+  left: 0;
+}
+
+.course-title {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: flex-start;
+  padding-right: 8px;
+}
+
+.priority-rank {
+  background-color: gray;
+  color: white;
+  margin-bottom: 1px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 6px 8px;
+  width: 75px;
+  font-size: 14px;
+  height: 20px;
+}
+
+.swap-text {
+  color: red;
+  font-size: 8px;
+
+}
+
+.swap-button {
+  flex: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hci {
+  background-color: #F7F6F6;
+  padding: '7px';
+  position: absolute; 
+  top: 67.5%;
+  left: 0;
+}
+
+#add-swap-icon{
+  font-weight: 1px;
+  position: absolute;
+  bottom: 6%;
+  left: 46%;
+}
+
+#bottom-line{
+  width: 100%;
+  margin: 0 auto; 
+  position: absolute;
+  bottom: 5.75%;
+  left: 0;
+}
+
+#bottom-icons-container {
+  margin-top: auto;
+  position: absolute;
+  bottom: 1%;
+  width: 70%;
+  left: 17%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom-icons {
+  padding: 0 16px;
+  font-size: 24px;
+  color: white;
+}
